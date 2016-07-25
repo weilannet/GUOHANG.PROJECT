@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "card_chuo_png,card_bg_png,card_btn_png,card_send_png,card_info_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_card_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_bg_jpg,index_earth_png,index_font_png,index_go_png,music_mp3",
+			"keys": "history_back_png,index_music_stop_png,card_chuo_png,card_bg_png,card_btn_png,card_send_png,card_info_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_earth_png,index_font_png,index_go_png,music_mp3",
 			"name": "preload"
 		},
 		{
@@ -95,11 +95,6 @@
 			"name": "index_go_png"
 		},
 		{
-			"url": "assets/index_bg.jpg",
-			"type": "image",
-			"name": "index_bg_jpg"
-		},
-		{
 			"url": "assets/people_bg.png",
 			"type": "image",
 			"name": "people_bg_png"
@@ -113,11 +108,6 @@
 			"url": "assets/select_bg.png",
 			"type": "image",
 			"name": "select_bg_png"
-		},
-		{
-			"url": "assets/select_card.png",
-			"type": "image",
-			"name": "select_card_png"
 		},
 		{
 			"url": "assets/select_des.png",
@@ -1388,6 +1378,16 @@
 			"name": "juxie_youpiao_3_png",
 			"type": "image",
 			"url": "assets/juxie/juxie_youpiao_3.png"
+		},
+		{
+			"name": "index_music_stop_png",
+			"type": "image",
+			"url": "assets/index_music_stop.png"
+		},
+		{
+			"name": "history_back_png",
+			"type": "image",
+			"url": "assets/history_back.png"
 		}
 	]
 }

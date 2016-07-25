@@ -174,7 +174,7 @@ var TripPeoplePanel = (function (_super) {
         Common.XZ_Daoju = e.target.name;
         //将容器remove掉，加载第二个页面
         this.removeChild(this.daoju_Sprite);
-        ViewManager.getInstance().order(TripPeoplePanel.TRIP_PEOPLE, this);
+        ViewManager.getInstance().order(TripEndPanel.TripEnd, this);
     };
     //结束界面，释放监听
     p.end = function () {

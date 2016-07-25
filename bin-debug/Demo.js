@@ -86,21 +86,13 @@ var Demo = (function (_super) {
             spr.name = arrXZ[i];
             this.spList.push(spr);
             //星座背景图
-            this.selectGo = new egret.Bitmap(RES.getRes('select_card_png'));
-            this.selectGo.width = spr.width;
-            this.selectGo.height = spr.height;
-            spr.addChild(this.selectGo);
-            //星座图标
             this.xzPic = new egret.Bitmap(RES.getRes("select_" + arrXZ[i] + "_png"));
-            this.xzPic.x = (spr.width - this.xzPic.width) * 0.5;
-            this.xzPic.y = (spr.height - this.xzPic.height) * 0.5;
+            this.xzPic.width = spr.width;
+            this.xzPic.height = spr.height;
             spr.addChild(this.xzPic);
-            // var lab: egret.TextField = new egret.TextField();
-            // lab.text = i + "";
-            // spr.addChild(lab);
             var vo = new moveVo(i, this.picWidth, this.totalCount);
             spr.x = this.sp_center_x + vo.x + this.picWidth * 0.5;
-            spr.y = this.sp_center_y + this.picHeight * 0.5;
+            spr.y = this.sp_center_y + this.picHeight * 0.6;
             spr.scaleX = spr.scaleY = vo.scale;
             spr.alpha = vo.alpha;
             this.addChildAt(spr, vo.childIdx);
@@ -125,7 +117,7 @@ var Demo = (function (_super) {
             RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
             RES.removeEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
             //资源加载完成后，进行跳转
-            ViewManager.getInstance().order(TripSelectPanel.TRIP_SELECT, this);
+            ViewManager.getInstance().order(TripPeoplePanel.TRIP_PEOPLE, this);
         }
     };
     /**

@@ -17,8 +17,7 @@ class Demo extends egret.Sprite {
     private isMove: boolean = false;
     private sp_center_x: number = 0;
     private sp_center_y: number = 0;
-    private totalCount = 0;
-    private selectGo: egret.Bitmap;
+    private totalCount = 0; 
     private xzPic: egret.Bitmap;
     private currentIdx: number;
 
@@ -90,7 +89,7 @@ class Demo extends egret.Sprite {
     }
 
     private initSp(): void {
-
+        
         var arrXZ: string[] = ["baiyang", "jinniu", "shuangzi", "juxie", "shizi", "chunv", "tianping", "tianxie", "sheshou", "mojie", "shuiping", "shuangyu"];
         this.totalCount = arrXZ.length;
         for (var i: number = 0; i < arrXZ.length; i++) {
@@ -104,26 +103,17 @@ class Demo extends egret.Sprite {
             this.spList.push(spr);
 
             //星座背景图
-            this.selectGo = new egret.Bitmap(RES.getRes('select_card_png'));
-            this.selectGo.width = spr.width;
-            this.selectGo.height = spr.height;
-            spr.addChild(this.selectGo);
-
-            //星座图标
-            this.xzPic = new egret.Bitmap(RES.getRes(`select_${arrXZ[i]}_png`));
-            this.xzPic.x = (spr.width - this.xzPic.width) * 0.5;
-            this.xzPic.y = (spr.height - this.xzPic.height) * 0.5;
+              this.xzPic = new egret.Bitmap(RES.getRes(`select_${arrXZ[i]}_png`));
+            this.xzPic.width = spr.width;
+            this.xzPic.height = spr.height;
             spr.addChild(this.xzPic);
 
-
-            // var lab: egret.TextField = new egret.TextField();
-            // lab.text = i + "";
-            // spr.addChild(lab);
+           
 
             var vo: moveVo = new moveVo(i, this.picWidth, this.totalCount);
 
             spr.x = this.sp_center_x + vo.x + this.picWidth * 0.5;
-            spr.y = this.sp_center_y + this.picHeight * 0.5;
+            spr.y = this.sp_center_y + this.picHeight * 0.6;
             spr.scaleX = spr.scaleY = vo.scale;
             spr.alpha = vo.alpha;
             this.addChildAt(spr, vo.childIdx);
@@ -151,7 +141,7 @@ class Demo extends egret.Sprite {
             RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
             RES.removeEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
             //资源加载完成后，进行跳转
-            ViewManager.getInstance().order(TripSelectPanel.TRIP_SELECT, this);
+            ViewManager.getInstance().order(TripPeoplePanel.TRIP_PEOPLE, this);
         }
     }
 

@@ -223,7 +223,7 @@ class TripPeoplePanel extends egret.Sprite {
 
         //将容器remove掉，加载第二个页面
         this.removeChild(this.daoju_Sprite);
-        ViewManager.getInstance().order(TripPeoplePanel.TRIP_PEOPLE, this);
+        ViewManager.getInstance().order(TripEndPanel.TripEnd, this);
     }
 
     //结束界面，释放监听

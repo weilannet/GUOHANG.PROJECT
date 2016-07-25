@@ -14,8 +14,8 @@ var TripSelectPanel = (function (_super) {
     p.start = function () {
         //进行初始化
         this.init();
-        // this.xz_mojieSprite.touchEnabled = true;
-        // this.xz_mojieSprite.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = true;
+        this.historyBack.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
     //初始化
     p.init = function () {
@@ -28,6 +28,12 @@ var TripSelectPanel = (function (_super) {
         this.bg.width = _stageW;
         this.bg.height = _stageH;
         this.addChild(this.bg);
+        this.historyBack = new egret.Bitmap(RES.getRes('history_back_png'));
+        // this.historyBack.width = _stageW;
+        // this.historyBack.height = _stageH;
+        this.historyBack.x = 20;
+        this.historyBack.y = 20;
+        this.addChild(this.historyBack);
         this.selectAirplane = new egret.Bitmap(RES.getRes('select_airplane_png'));
         this.selectAirplane.x = _stageW;
         this.selectAirplane.y = 100;
@@ -60,7 +66,7 @@ var TripSelectPanel = (function (_super) {
         // this.xz_mojiePic = new egret.Bitmap(RES.getRes('select_mojie_png'));
         // this.xz_mojiePic.x = (this.xz_mojieSprite.width - this.xz_mojiePic.width) * 0.5;
         // this.xz_mojiePic.y = (this.xz_mojieSprite.height - this.xz_mojiePic.height) * 0.5;
-        // this.xz_mojieSprite.addChild(this.xz_mojiePic);
+        // this.xz_mojieSprite.addChild(this.xz_mojiePic); 
     };
     p.onTouchTab = function (e) {
         this.loadingView = new LoadingUI();
@@ -72,11 +78,14 @@ var TripSelectPanel = (function (_super) {
         //判断点击的星座，加载不同的资源
         RES.loadGroup("xz_mojieload");
     };
+    p.onTouchBackTab = function (e) {
+        ViewManager.getInstance().order(TripIndexPanel.TRIP_INDEX, this);
+    };
     //结束界面，释放监听
     p.end = function () {
-        // this.xz_mojieSprite.touchEnabled = false;
-        // if (this.xz_mojieSprite.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-        //     this.xz_mojieSprite.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = false;
+        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
     /**
     * preload资源组加载完成

@@ -5,7 +5,7 @@ class TripSelectPanel extends egret.Sprite {
     private bg: egret.Bitmap;// 背景
     private selectGo: egret.Bitmap;//这里我们使用textfield当做按钮
     private selectAirplane: egret.Bitmap;
-
+    private historyBack: egret.Bitmap;
 
     // private xz_mojieSprite: egret.Sprite;
     // private xz_mojiePic: egret.Bitmap;
@@ -25,8 +25,8 @@ class TripSelectPanel extends egret.Sprite {
     public start() {
         //进行初始化
         this.init();
-        // this.xz_mojieSprite.touchEnabled = true;
-        // this.xz_mojieSprite.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = true;
+        this.historyBack.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
 
 
     }
@@ -41,6 +41,13 @@ class TripSelectPanel extends egret.Sprite {
         this.bg.width = _stageW;
         this.bg.height = _stageH;
         this.addChild(this.bg);
+
+         this.historyBack = new egret.Bitmap(RES.getRes('history_back_png'));
+        // this.historyBack.width = _stageW;
+        // this.historyBack.height = _stageH;
+        this.historyBack.x=20;
+        this.historyBack.y=20;
+        this.addChild(this.historyBack);
 
         this.selectAirplane = new egret.Bitmap(RES.getRes('select_airplane_png'));
         this.selectAirplane.x = _stageW;
@@ -80,10 +87,7 @@ class TripSelectPanel extends egret.Sprite {
         // this.xz_mojiePic = new egret.Bitmap(RES.getRes('select_mojie_png'));
         // this.xz_mojiePic.x = (this.xz_mojieSprite.width - this.xz_mojiePic.width) * 0.5;
         // this.xz_mojiePic.y = (this.xz_mojieSprite.height - this.xz_mojiePic.height) * 0.5;
-        // this.xz_mojieSprite.addChild(this.xz_mojiePic);
-
-
-
+        // this.xz_mojieSprite.addChild(this.xz_mojiePic); 
 
     }
   
@@ -99,11 +103,16 @@ class TripSelectPanel extends egret.Sprite {
         RES.loadGroup("xz_mojieload");
     }
 
+     private onTouchBackTab(e: egret.TouchEvent) {
+
+        ViewManager.getInstance().order(TripIndexPanel.TRIP_INDEX, this);
+    }
+
     //结束界面，释放监听
     public end() {
-        // this.xz_mojieSprite.touchEnabled = false;
-        // if (this.xz_mojieSprite.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-        //     this.xz_mojieSprite.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = false;
+        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     }
 
 
