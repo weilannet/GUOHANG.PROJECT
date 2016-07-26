@@ -2,14 +2,15 @@ class ViewManager extends egret.Sprite {
 	   public constructor() {
         super();
         this.indexSound = RES.getRes("music_mp3");
-        this.soundChannel=  this.indexSound.play(0,-1);
-		this.isPlay = true;
+        this.soundChannel = this.indexSound.play(0, -1);
+        this.isPlay = true;
     }
 
     private static instance: ViewManager;
     private tripIndexPanel: TripIndexPanel; // 首页
     private tripPeoplePanel: TripPeoplePanel; //显示星座人物
     private tripSelectPanel: TripSelectPanel; //选择星座
+    private tripDaojuPanel: TripDaojuPanel; //显示星座人物
     private tripEndPanel: TripEndPanel; //显示卡片
     private musicPanel: egret.Sprite;
     private indexMusic: egret.Bitmap;
@@ -25,8 +26,9 @@ class ViewManager extends egret.Sprite {
 
         this.tripIndexPanel = new TripIndexPanel();
         this.tripPeoplePanel = new TripPeoplePanel();
-        this.tripSelectPanel = new TripSelectPanel(); 
-        this.tripEndPanel= new TripEndPanel();
+        this.tripSelectPanel = new TripSelectPanel();
+        this.tripEndPanel = new TripEndPanel();
+        this.tripDaojuPanel = new TripDaojuPanel();
 
 
         this.tripIndexPanel.width = this.width;
@@ -37,6 +39,9 @@ class ViewManager extends egret.Sprite {
 
         this.tripSelectPanel.width = this.width;
         this.tripSelectPanel.height = this.height;
+
+        this.tripDaojuPanel.width = this.width;
+        this.tripDaojuPanel.height = this.height;
 
         this.tripEndPanel.width = this.width;
         this.tripEndPanel.height = this.height;
@@ -57,8 +62,8 @@ class ViewManager extends egret.Sprite {
         this.musicPanel.graphics.endFill();
         this.musicPanel.addChild(this.indexMusic);
         this.musicPanel.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchMusic, this);
- 
-        
+
+
         this.addChild(this.tripIndexPanel);
         this.addChild(this.musicPanel);
         this.tripIndexPanel.start();
@@ -66,7 +71,7 @@ class ViewManager extends egret.Sprite {
     }
 
     private onTouchMusic(e: egret.TouchEvent) {
-         
+
         if (this.isPlay) {
             //egret.Tween.pauseTweens(this.indexMusic);
             this.musicPanel.removeChild(this.indexMusic);
@@ -121,34 +126,35 @@ class ViewManager extends egret.Sprite {
                 this.removeChildren();
                 this.tripIndexPanel.start();
                 this.addChild(this.tripIndexPanel);
-
+                this.addChild(this.musicPanel);
                 break;
             case TripSelectPanel.TRIP_SELECT:
-             
-                this.removeChildren(); 
+                this.removeChildren();
                 this.tripSelectPanel.start();
                 this.addChild(this.tripSelectPanel);
-
+                this.addChild(this.musicPanel);
                 break;
             case TripPeoplePanel.TRIP_PEOPLE:
-                // this.removeChildren();
-                // this.tripSelectPanel.start();
-                // this.addChild(this.tripSelectPanel);
-                
+                this.removeChildren();
                 this.tripPeoplePanel.start();
                 this.addChild(this.tripPeoplePanel);
+                this.addChild(this.musicPanel);
                 break;
+            case TripDaojuPanel.TRIP_DAOJU:
+             
+                this.tripDaojuPanel.start();
+                this.addChild(this.tripDaojuPanel); 
+                 break;
             case TripEndPanel.TripEnd:
                 this.removeChildren();
                 this.tripEndPanel.start();
                 this.addChild(this.tripEndPanel);
-
+                this.addChild(this.musicPanel);
                 break;
             default:
                 break;
         }
 
-        this.addChild(this.musicPanel);
- 
+
     }
 }

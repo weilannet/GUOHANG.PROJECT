@@ -1,11 +1,5 @@
 var TripSelectPanel = (function (_super) {
     __extends(TripSelectPanel, _super);
-    // private xz_mojieSprite: egret.Sprite;
-    // private xz_mojiePic: egret.Bitmap;
-    // private xz_tianxieSprite: egret.Sprite;
-    // private xz_tianxiePic: egret.Bitmap;
-    // private xz_baiyangSprite: egret.Sprite;
-    // private xz_baiyangPic: egret.Bitmap;
     function TripSelectPanel() {
         _super.call(this);
     }
@@ -40,43 +34,11 @@ var TripSelectPanel = (function (_super) {
         this.addChild(this.selectAirplane);
         egret.Tween.get(this.selectAirplane, { loop: false })
             .to({ x: (_stageW - this.selectAirplane.width) * 0.5 }, 3000);
-        var demoSp = new Demo();
-        demoSp.width = _stageW;
-        demoSp.height = _stageH;
-        demoSp.init();
-        this.addChild(demoSp);
-        // //星座容器
-        // this.xz_mojieSprite = new egret.Sprite();
-        // //容器宽高为屏幕的60%
-        // this.xz_mojieSprite.graphics.drawRect(0, 0, _stageW * 0.6, _stageH * 0.6);
-        // this.xz_mojieSprite.graphics.endFill();
-        // //X居中显示
-        // this.xz_mojieSprite.x = (_stageW - this.xz_mojieSprite.width) * 0.5 + this.xz_mojieSprite.width * 0.5;
-        // //Y居中显示，向下30像素
-        // this.xz_mojieSprite.y = (_stageH - this.xz_mojieSprite.height) * 0.6 + this.xz_mojieSprite.height * 0.5;
-        // this.xz_mojieSprite.anchorOffsetX = this.xz_mojieSprite.width * 0.5;
-        // this.xz_mojieSprite.anchorOffsetY = this.xz_mojieSprite.height * 0.5;
-        // this.addChild(this.xz_mojieSprite);
-        // //星座背景图
-        // this.selectGo = new egret.Bitmap(RES.getRes('select_card_png'));
-        // this.selectGo.width = this.xz_mojieSprite.width;
-        // this.selectGo.height = this.xz_mojieSprite.height;
-        // this.xz_mojieSprite.addChild(this.selectGo);
-        // //星座图标
-        // this.xz_mojiePic = new egret.Bitmap(RES.getRes('select_mojie_png'));
-        // this.xz_mojiePic.x = (this.xz_mojieSprite.width - this.xz_mojiePic.width) * 0.5;
-        // this.xz_mojiePic.y = (this.xz_mojieSprite.height - this.xz_mojiePic.height) * 0.5;
-        // this.xz_mojieSprite.addChild(this.xz_mojiePic); 
-    };
-    p.onTouchTab = function (e) {
-        this.loadingView = new LoadingUI();
-        this.addChild(this.loadingView);
-        RES.addEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
-        RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
-        RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
-        RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
-        //判断点击的星座，加载不同的资源
-        RES.loadGroup("xz_mojieload");
+        this.xzSlideSp = new XZSlide();
+        this.xzSlideSp.width = _stageW;
+        this.xzSlideSp.height = _stageH;
+        this.xzSlideSp.init();
+        this.addChild(this.xzSlideSp);
     };
     p.onTouchBackTab = function (e) {
         ViewManager.getInstance().order(TripIndexPanel.TRIP_INDEX, this);

@@ -15,12 +15,15 @@ var ViewManager = (function (_super) {
         this.tripPeoplePanel = new TripPeoplePanel();
         this.tripSelectPanel = new TripSelectPanel();
         this.tripEndPanel = new TripEndPanel();
+        this.tripDaojuPanel = new TripDaojuPanel();
         this.tripIndexPanel.width = this.width;
         this.tripIndexPanel.height = this.height;
         this.tripPeoplePanel.width = this.width;
         this.tripPeoplePanel.height = this.height;
         this.tripSelectPanel.width = this.width;
         this.tripSelectPanel.height = this.height;
+        this.tripDaojuPanel.width = this.width;
+        this.tripDaojuPanel.height = this.height;
         this.tripEndPanel.width = this.width;
         this.tripEndPanel.height = this.height;
         //加入音乐部分
@@ -87,28 +90,33 @@ var ViewManager = (function (_super) {
                 this.removeChildren();
                 this.tripIndexPanel.start();
                 this.addChild(this.tripIndexPanel);
+                this.addChild(this.musicPanel);
                 break;
             case TripSelectPanel.TRIP_SELECT:
                 this.removeChildren();
                 this.tripSelectPanel.start();
                 this.addChild(this.tripSelectPanel);
+                this.addChild(this.musicPanel);
                 break;
             case TripPeoplePanel.TRIP_PEOPLE:
-                // this.removeChildren();
-                // this.tripSelectPanel.start();
-                // this.addChild(this.tripSelectPanel);
+                this.removeChildren();
                 this.tripPeoplePanel.start();
                 this.addChild(this.tripPeoplePanel);
+                this.addChild(this.musicPanel);
+                break;
+            case TripDaojuPanel.TRIP_DAOJU:
+                this.tripDaojuPanel.start();
+                this.addChild(this.tripDaojuPanel);
                 break;
             case TripEndPanel.TripEnd:
                 this.removeChildren();
                 this.tripEndPanel.start();
                 this.addChild(this.tripEndPanel);
+                this.addChild(this.musicPanel);
                 break;
             default:
                 break;
         }
-        this.addChild(this.musicPanel);
     };
     return ViewManager;
 }(egret.Sprite));

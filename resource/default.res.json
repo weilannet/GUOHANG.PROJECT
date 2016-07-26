@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "history_back_png,index_music_stop_png,card_chuo_png,card_bg_png,card_btn_png,card_send_png,card_info_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_earth_png,index_font_png,index_go_png,music_mp3",
+			"keys": "daoju_bag_png,daoju_close_png,history_back_png,index_music_stop_png,card_chuo_png,card_bg_png,card_btn_png,card_send_png,card_info_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_earth_png,index_font_png,index_go_png,music_mp3",
 			"name": "preload"
 		},
 		{
@@ -33,7 +33,7 @@
 			"name": "xz_shiziload"
 		},
 		{
-			"keys": "shuangyu_font_png,shuangyu_youpiao_2_png,shuangyu_youpiao_1_png,shuangyu_youpiao_3_png,shuangyu_des_1_png,shuangyu_des_3_png,shuangyu_des_2_png,shuangyu_cs_3_jpg,shuangyu_cs_2_jpg,shuangyu_cs_1_jpg,shuangyu_s6_png,shuangyu_s5_png,shuangyu_s4_png,shuangyu_s3_png,shuangyu_s2_png,shuangyu_s1_png,shuangyu_people_png,shuangyu_bag_png",
+			"keys": "shuangyu_font_png,shuangyu_youpiao_2_png,shuangyu_youpiao_1_png,shuangyu_youpiao_3_png,shuangyu_des_1_png,shuangyu_des_3_png,shuangyu_des_2_png,shuangyu_cs_3_jpg,shuangyu_cs_2_jpg,shuangyu_cs_1_jpg,shuangyu_s6_png,shuangyu_s5_png,shuangyu_s4_png,shuangyu_s3_png,shuangyu_s2_png,shuangyu_s1_png,shuangyu_people_png",
 			"name": "xz_shuangyuload"
 		},
 		{
@@ -1388,6 +1388,16 @@
 			"name": "history_back_png",
 			"type": "image",
 			"url": "assets/history_back.png"
+		},
+		{
+			"name": "daoju_close_png",
+			"type": "image",
+			"url": "assets/daoju_close.png"
+		},
+		{
+			"name": "daoju_bag_png",
+			"type": "image",
+			"url": "assets/daoju_bag.png"
 		}
 	]
 }

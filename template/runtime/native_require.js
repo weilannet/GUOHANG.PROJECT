@@ -10,16 +10,17 @@ var game_file_list = [
 	"libs/modules/res/res.js",
 	"bin-debug/ChangeSceneEvent .js",
 	"bin-debug/Common.js",
-	"bin-debug/Demo.js",
 	"bin-debug/LoadingUI.js",
 	"bin-debug/Main.js",
 	"bin-debug/Music.js",
 	"bin-debug/TripCardPanel.js",
+	"bin-debug/TripDaojuPanel.js",
 	"bin-debug/TripEndPanel.js",
 	"bin-debug/TripIndexPanel.js",
 	"bin-debug/TripPeoplePanel.js",
 	"bin-debug/TripSelectPanel.js",
 	"bin-debug/ViewManager.js",
+	"bin-debug/XZSlide.js",
 	//----auto game_file_list end----
 ];
 
