@@ -14,9 +14,8 @@ var TripPeoplePanel = (function (_super) {
     };
     //初始化
     p.init = function () {
-        if (this.xz_Sprite) {
-            return;
-        }
+        //返回时切换星座，星座不变的问题
+        // if (this.xz_Sprite) { return; }
         this.stageW = this.width;
         this.stageH = this.height;
         this.bg = new egret.Bitmap(RES.getRes('select_bg_png'));
@@ -75,13 +74,6 @@ var TripPeoplePanel = (function (_super) {
         this.xz_Sprite.addChild(this.xz_fontPic);
     };
     p.onTouchTab = function (e) {
-        //取消事件监听
-        this.bagBtn.touchEnabled = false;
-        if (this.bagBtn.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-            this.bagBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
-        this.historyBack.touchEnabled = false;
-        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
         ViewManager.getInstance().order(TripDaojuPanel.TRIP_DAOJU, this);
     };
     p.onTouchBackTab = function (e) {
@@ -90,6 +82,12 @@ var TripPeoplePanel = (function (_super) {
     //结束界面，释放监听
     p.end = function () {
         //将六个道具的事件监听取消
+        this.bagBtn.touchEnabled = false;
+        if (this.bagBtn.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.bagBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = false;
+        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
     TripPeoplePanel.TRIP_PEOPLE = "TRIP_PEOPLE";
     return TripPeoplePanel;

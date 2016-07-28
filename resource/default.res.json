@@ -1,55 +1,55 @@
 {
 	"groups": [
 		{
-			"keys": "daoju_bag_png,daoju_close_png,history_back_png,index_music_stop_png,card_chuo_png,card_bg_png,card_btn_png,card_send_png,card_info_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_earth_png,index_font_png,index_go_png,music_mp3",
+			"keys": "end_focus_png,end_share_png,daoju_bag_png,daoju_close_png,history_back_png,index_music_stop_png,select_tianping_png,select_shuiping_png,select_shuangzi_png,select_shuangyu_png,select_shizi_png,select_sheshou_png,select_juxie_png,select_jinniu_png,select_chunv_png,select_baiyang_png,select_tianxie_png,select_think_png,select_mojie_png,select_des_png,select_bg_png,select_airplane_png,people_bg_png,egret_icon_png,description_json,index_logo_png,index_music_png,index_bg_png,index_earth_png,index_font_png,index_go_png,music_mp3",
 			"name": "preload"
 		},
 		{
-			"keys": "mojie_font_png,mojie_youpiao_2_png,mojie_youpiao_1_png,mojie_youpiao_3_png,mojie_des_1_png,mojie_des_3_png,mojie_des_2_png,mojie_cs_3_jpg,mojie_cs_2_jpg,mojie_cs_1_jpg,mojie_s6_png,mojie_s5_png,mojie_s4_png,mojie_s3_png,mojie_s2_png,mojie_s1_png,mojie_people_png,mojie_bag_png",
+			"keys": "mojie_font_png,mojie_des_1_png,mojie_des_3_png,mojie_des_2_png,mojie_cs_3_png,mojie_cs_2_png,mojie_cs_1_png,mojie_s6_png,mojie_s5_png,mojie_s4_png,mojie_s3_png,mojie_s2_png,mojie_s1_png,mojie_people_png,mojie_bag_png",
 			"name": "xz_mojieload"
 		},
 		{
-			"keys": "baiyang_font_png,baiyang_youpiao_2_png,baiyang_youpiao_1_png,baiyang_youpiao_3_png,baiyang_des_1_png,baiyang_des_3_png,baiyang_des_2_png,baiyang_cs_3_jpg,baiyang_cs_2_jpg,baiyang_cs_1_jpg,baiyang_s6_png,baiyang_s5_png,baiyang_s4_png,baiyang_s3_png,baiyang_s2_png,baiyang_s1_png,baiyang_people_png,baiyang_bag_png",
+			"keys": "baiyang_font_png,baiyang_des_1_png,baiyang_des_3_png,baiyang_des_2_png,baiyang_cs_3_png,baiyang_cs_2_png,baiyang_cs_1_png,baiyang_s6_png,baiyang_s5_png,baiyang_s4_png,baiyang_s3_png,baiyang_s2_png,baiyang_s1_png,baiyang_people_png,baiyang_bag_png",
 			"name": "xz_baiyangload"
 		},
 		{
-			"keys": "chunv_font_png,chunv_youpiao_2_png,chunv_youpiao_1_png,chunv_youpiao_3_png,chunv_des_1_png,chunv_des_3_png,chunv_des_2_png,chunv_cs_3_jpg,chunv_cs_2_jpg,chunv_cs_1_jpg,chunv_s6_png,chunv_s5_png,chunv_s4_png,chunv_s3_png,chunv_s2_png,chunv_s1_png,chunv_people_png,chunv_bag_png",
+			"keys": "chunv_font_png,chunv_des_1_png,chunv_des_3_png,chunv_des_2_png,chunv_cs_3_png,chunv_cs_2_png,chunv_cs_1_png,chunv_s6_png,chunv_s5_png,chunv_s4_png,chunv_s3_png,chunv_s2_png,chunv_s1_png,chunv_people_png,chunv_bag_png",
 			"name": "xz_chunvload"
 		},
 		{
-			"keys": "jinniu_font_png,jinniu_youpiao_2_png,jinniu_youpiao_1_png,jinniu_youpiao_3_png,jinniu_des_1_png,jinniu_des_3_png,jinniu_des_2_png,jinniu_cs_3_jpg,jinniu_cs_2_jpg,jinniu_cs_1_jpg,jinniu_s6_png,jinniu_s5_png,jinniu_s4_png,jinniu_s3_png,jinniu_s2_png,jinniu_s1_png,jinniu_people_png,jinniu_bag_png",
+			"keys": "jinniu_font_png,jinniu_des_1_png,jinniu_des_3_png,jinniu_des_2_png,jinniu_cs_3_png,jinniu_cs_2_png,jinniu_cs_1_png,jinniu_s6_png,jinniu_s5_png,jinniu_s4_png,jinniu_s3_png,jinniu_s2_png,jinniu_s1_png,jinniu_people_png,jinniu_bag_png",
 			"name": "xz_jinniuload"
 		},
 		{
-			"keys": "juxie_font_png,juxie_youpiao_2_png,juxie_youpiao_1_png,juxie_youpiao_3_png,juxie_des_1_png,juxie_des_3_png,juxie_des_2_png,juxie_cs_3_jpg,juxie_cs_2_jpg,juxie_cs_1_jpg,juxie_s6_png,juxie_s5_png,juxie_s4_png,juxie_s3_png,juxie_s2_png,juxie_s1_png,juxie_people_png,juxie_bag_png",
+			"keys": "juxie_font_png,juxie_des_1_png,juxie_des_3_png,juxie_des_2_png,juxie_cs_3_png,juxie_cs_2_png,juxie_cs_1_png,juxie_s6_png,juxie_s5_png,juxie_s4_png,juxie_s3_png,juxie_s2_png,juxie_s1_png,juxie_people_png,juxie_bag_png",
 			"name": "xz_juxieload"
 		},
 		{
-			"keys": "sheshou_font_png,sheshou_youpiao_2_png,sheshou_youpiao_1_png,sheshou_youpiao_3_png,sheshou_des_1_png,sheshou_des_3_png,sheshou_des_2_png,sheshou_cs_3_jpg,sheshou_cs_2_jpg,sheshou_cs_1_jpg,sheshou_s6_png,sheshou_s5_png,sheshou_s4_png,sheshou_s3_png,sheshou_s2_png,sheshou_s1_png,sheshou_people_png,sheshou_bag_png",
+			"keys": "sheshou_font_png,sheshou_des_1_png,sheshou_des_3_png,sheshou_des_2_png,sheshou_cs_3_png,sheshou_cs_2_png,sheshou_cs_1_png,sheshou_s6_png,sheshou_s5_png,sheshou_s4_png,sheshou_s3_png,sheshou_s2_png,sheshou_s1_png,sheshou_people_png,sheshou_bag_png",
 			"name": "xz_sheshouload"
 		},
 		{
-			"keys": "shizi_font_png,shizi_youpiao_2_png,shizi_youpiao_1_png,shizi_youpiao_3_png,shizi_des_1_png,shizi_des_3_png,shizi_des_2_png,shizi_cs_3_jpg,shizi_cs_2_jpg,shizi_cs_1_jpg,shizi_s6_png,shizi_s5_png,shizi_s4_png,shizi_s3_png,shizi_s2_png,shizi_s1_png,shizi_people_png,shizi_bag_png",
+			"keys": "shizi_font_png,shizi_des_1_png,shizi_des_3_png,shizi_des_2_png,shizi_cs_3_png,shizi_cs_2_png,shizi_cs_1_png,shizi_s6_png,shizi_s5_png,shizi_s4_png,shizi_s3_png,shizi_s2_png,shizi_s1_png,shizi_people_png,shizi_bag_png",
 			"name": "xz_shiziload"
 		},
 		{
-			"keys": "shuangyu_font_png,shuangyu_youpiao_2_png,shuangyu_youpiao_1_png,shuangyu_youpiao_3_png,shuangyu_des_1_png,shuangyu_des_3_png,shuangyu_des_2_png,shuangyu_cs_3_jpg,shuangyu_cs_2_jpg,shuangyu_cs_1_jpg,shuangyu_s6_png,shuangyu_s5_png,shuangyu_s4_png,shuangyu_s3_png,shuangyu_s2_png,shuangyu_s1_png,shuangyu_people_png",
+			"keys": "shuangyu_bag_png,shuangyu_font_png,shuangyu_des_1_png,shuangyu_des_3_png,shuangyu_des_2_png,shuangyu_cs_3_png,shuangyu_cs_2_png,shuangyu_cs_1_png,shuangyu_s6_png,shuangyu_s5_png,shuangyu_s4_png,shuangyu_s3_png,shuangyu_s2_png,shuangyu_s1_png,shuangyu_people_png",
 			"name": "xz_shuangyuload"
 		},
 		{
-			"keys": "shuangzi_font_png,shuangzi_youpiao_2_png,shuangzi_youpiao_1_png,shuangzi_youpiao_3_png,shuangzi_des_1_png,shuangzi_des_3_png,shuangzi_des_2_png,shuangzi_cs_3_jpg,shuangzi_cs_2_jpg,shuangzi_cs_1_jpg,shuangzi_s6_png,shuangzi_s5_png,shuangzi_s4_png,shuangzi_s3_png,shuangzi_s2_png,shuangzi_s1_png,shuangzi_people_png,shuangzi_bag_png",
+			"keys": "shuangzi_font_png,shuangzi_des_1_png,shuangzi_des_3_png,shuangzi_des_2_png,shuangzi_cs_3_png,shuangzi_cs_2_png,shuangzi_cs_1_png,shuangzi_s6_png,shuangzi_s5_png,shuangzi_s4_png,shuangzi_s3_png,shuangzi_s2_png,shuangzi_s1_png,shuangzi_people_png,shuangzi_bag_png",
 			"name": "xz_shuangziload"
 		},
 		{
-			"keys": "shuiping_font_png,shuiping_youpiao_2_png,shuiping_youpiao_1_png,shuiping_youpiao_3_png,shuiping_des_1_png,shuiping_des_3_png,shuiping_des_2_png,shuiping_cs_3_jpg,shuiping_cs_2_jpg,shuiping_cs_1_jpg,shuiping_s6_png,shuiping_s5_png,shuiping_s4_png,shuiping_s3_png,shuiping_s2_png,shuiping_s1_png,shuiping_people_png,shuiping_bag_png",
+			"keys": "shuiping_font_png,shuiping_des_1_png,shuiping_des_3_png,shuiping_des_2_png,shuiping_cs_3_png,shuiping_cs_2_png,shuiping_cs_1_png,shuiping_s6_png,shuiping_s5_png,shuiping_s4_png,shuiping_s3_png,shuiping_s2_png,shuiping_s1_png,shuiping_people_png,shuiping_bag_png",
 			"name": "xz_shuipingload"
 		},
 		{
-			"keys": "tianping_font_png,tianping_youpiao_2_png,tianping_youpiao_1_png,tianping_youpiao_3_png,tianping_des_1_png,tianping_des_3_png,tianping_des_2_png,tianping_cs_3_jpg,tianping_cs_2_jpg,tianping_cs_1_jpg,tianping_s6_png,tianping_s5_png,tianping_s4_png,tianping_s3_png,tianping_s2_png,tianping_s1_png,tianping_people_png,tianping_bag_png",
+			"keys": "tianping_font_png,tianping_des_1_png,tianping_des_3_png,tianping_des_2_png,tianping_cs_3_png,tianping_cs_2_png,tianping_cs_1_png,tianping_s6_png,tianping_s5_png,tianping_s4_png,tianping_s3_png,tianping_s2_png,tianping_s1_png,tianping_people_png,tianping_bag_png",
 			"name": "xz_tianpingload"
 		},
 		{
-			"keys": "tianxie_font_png,tianxie_youpiao_2_png,tianxie_youpiao_1_png,tianxie_youpiao_3_png,tianxie_des_1_png,tianxie_des_3_png,tianxie_des_2_png,tianxie_cs_3_jpg,tianxie_cs_2_jpg,tianxie_cs_1_jpg,tianxie_s6_png,tianxie_s5_png,tianxie_s4_png,tianxie_s3_png,tianxie_s2_png,tianxie_s1_png,tianxie_people_png,tianxie_bag_png",
+			"keys": "tianxie_font_png,tianxie_des_1_png,tianxie_des_3_png,tianxie_des_2_png,tianxie_cs_3_png,tianxie_cs_2_png,tianxie_cs_1_png,tianxie_s6_png,tianxie_s5_png,tianxie_s4_png,tianxie_s3_png,tianxie_s2_png,tianxie_s1_png,tianxie_people_png,tianxie_bag_png",
 			"name": "xz_tianxieload"
 		}
 	],
@@ -220,19 +220,19 @@
 			"name": "select_tianping_png"
 		},
 		{
-			"url": "assets/mojie/mojie_cs_1.jpg",
+			"url": "assets/mojie/mojie_cs_1.png",
 			"type": "image",
-			"name": "mojie_cs_1_jpg"
+			"name": "mojie_cs_1_png"
 		},
 		{
-			"url": "assets/mojie/mojie_cs_2.jpg",
+			"url": "assets/mojie/mojie_cs_2.png",
 			"type": "image",
-			"name": "mojie_cs_2_jpg"
+			"name": "mojie_cs_2_png"
 		},
 		{
-			"url": "assets/mojie/mojie_cs_3.jpg",
+			"url": "assets/mojie/mojie_cs_3.png",
 			"type": "image",
-			"name": "mojie_cs_3_jpg"
+			"name": "mojie_cs_3_png"
 		},
 		{
 			"url": "assets/mojie/mojie_des_2.png",
@@ -250,1154 +250,944 @@
 			"name": "mojie_des_1_png"
 		},
 		{
-			"url": "assets/card_send.png",
+			"url": "assets/mojie/mojie_font.png",
 			"type": "image",
-			"name": "card_send_png"
+			"name": "mojie_font_png"
 		},
 		{
-			"url": "assets/card_info.png",
-			"type": "image",
-			"name": "card_info_png"
-		},
-		{
-			"url": "assets/card_btn.png",
-			"type": "image",
-			"name": "card_btn_png"
-		},
-		{
-			"url": "assets/card_bg.png",
-			"type": "image",
-			"name": "card_bg_png"
-		},
-		{
-			"url": "assets/card_chuo.png",
-			"type": "image",
-			"name": "card_chuo_png"
-		},
-		{
-			"url": "assets/mojie/mojie_youpiao_3.png",
-			"type": "image",
-			"name": "mojie_youpiao_3_png"
-		},
-		{
-			"url": "assets/mojie/mojie_youpiao_1.png",
-			"type": "image",
-			"name": "mojie_youpiao_1_png"
-		},
-		{
-			"url": "assets/mojie/mojie_youpiao_2.png",
-			"type": "image",
-			"name": "mojie_youpiao_2_png"
-		},
-		{
-			"name": "mojie_font_png",
-			"type": "image",
-			"url": "assets/mojie/mojie_font.png"
-		},
-		{
-			"name": "music_mp3",
+			"url": "assets/music.mp3",
 			"type": "sound",
-			"url": "assets/music.mp3"
+			"name": "music_mp3"
 		},
 		{
-			"name": "baiyang_bag_png",
+			"url": "assets/baiyang/baiyang_bag.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_bag.png"
+			"name": "baiyang_bag_png"
 		},
 		{
-			"name": "baiyang_cs_1_jpg",
+			"url": "assets/baiyang/baiyang_cs_1.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_cs_1.jpg"
+			"name": "baiyang_cs_1_png"
 		},
 		{
-			"name": "baiyang_cs_2_jpg",
+			"url": "assets/baiyang/baiyang_cs_2.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_cs_2.jpg"
+			"name": "baiyang_cs_2_png"
 		},
 		{
-			"name": "baiyang_cs_3_jpg",
+			"url": "assets/baiyang/baiyang_cs_3.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_cs_3.jpg"
+			"name": "baiyang_cs_3_png"
 		},
 		{
-			"name": "baiyang_des_1_png",
+			"url": "assets/baiyang/baiyang_des_1.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_des_1.png"
+			"name": "baiyang_des_1_png"
 		},
 		{
-			"name": "baiyang_des_2_png",
+			"url": "assets/baiyang/baiyang_des_2.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_des_2.png"
+			"name": "baiyang_des_2_png"
 		},
 		{
-			"name": "baiyang_des_3_png",
+			"url": "assets/baiyang/baiyang_des_3.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_des_3.png"
+			"name": "baiyang_des_3_png"
 		},
 		{
-			"name": "baiyang_font_png",
+			"url": "assets/baiyang/baiyang_font.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_font.png"
+			"name": "baiyang_font_png"
 		},
 		{
-			"name": "baiyang_people_png",
+			"url": "assets/baiyang/baiyang_people.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_people.png"
+			"name": "baiyang_people_png"
 		},
 		{
-			"name": "baiyang_s1_png",
+			"url": "assets/baiyang/baiyang_s1.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s1.png"
+			"name": "baiyang_s1_png"
 		},
 		{
-			"name": "baiyang_s2_png",
+			"url": "assets/baiyang/baiyang_s2.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s2.png"
+			"name": "baiyang_s2_png"
 		},
 		{
-			"name": "baiyang_s3_png",
+			"url": "assets/baiyang/baiyang_s3.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s3.png"
+			"name": "baiyang_s3_png"
 		},
 		{
-			"name": "baiyang_s4_png",
+			"url": "assets/baiyang/baiyang_s4.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s4.png"
+			"name": "baiyang_s4_png"
 		},
 		{
-			"name": "baiyang_s5_png",
+			"url": "assets/baiyang/baiyang_s5.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s5.png"
+			"name": "baiyang_s5_png"
 		},
 		{
-			"name": "baiyang_s6_png",
+			"url": "assets/baiyang/baiyang_s6.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_s6.png"
+			"name": "baiyang_s6_png"
 		},
 		{
-			"name": "baiyang_youpiao_1_png",
+			"url": "assets/chunv/chunv_bag.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_youpiao_1.png"
+			"name": "chunv_bag_png"
 		},
 		{
-			"name": "baiyang_youpiao_2_png",
+			"url": "assets/chunv/chunv_cs_1.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_youpiao_2.png"
+			"name": "chunv_cs_1_png"
 		},
 		{
-			"name": "baiyang_youpiao_3_png",
+			"url": "assets/chunv/chunv_cs_2.png",
 			"type": "image",
-			"url": "assets/baiyang/baiyang_youpiao_3.png"
+			"name": "chunv_cs_2_png"
 		},
 		{
-			"name": "chunv_bag_png",
+			"url": "assets/chunv/chunv_cs_3.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_bag.png"
+			"name": "chunv_cs_3_png"
 		},
 		{
-			"name": "chunv_cs_1_jpg",
+			"url": "assets/chunv/chunv_des_1.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_cs_1.jpg"
+			"name": "chunv_des_1_png"
 		},
 		{
-			"name": "chunv_cs_2_jpg",
+			"url": "assets/chunv/chunv_des_2.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_cs_2.jpg"
+			"name": "chunv_des_2_png"
 		},
 		{
-			"name": "chunv_cs_3_jpg",
+			"url": "assets/chunv/chunv_des_3.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_cs_3.jpg"
+			"name": "chunv_des_3_png"
 		},
 		{
-			"name": "chunv_des_1_png",
+			"url": "assets/chunv/chunv_font.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_des_1.png"
+			"name": "chunv_font_png"
 		},
 		{
-			"name": "chunv_des_2_png",
+			"url": "assets/chunv/chunv_people.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_des_2.png"
+			"name": "chunv_people_png"
 		},
 		{
-			"name": "chunv_des_3_png",
+			"url": "assets/chunv/chunv_s1.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_des_3.png"
+			"name": "chunv_s1_png"
 		},
 		{
-			"name": "chunv_font_png",
+			"url": "assets/chunv/chunv_s2.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_font.png"
+			"name": "chunv_s2_png"
 		},
 		{
-			"name": "chunv_people_png",
+			"url": "assets/chunv/chunv_s3.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_people.png"
+			"name": "chunv_s3_png"
 		},
 		{
-			"name": "chunv_s1_png",
+			"url": "assets/chunv/chunv_s4.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s1.png"
+			"name": "chunv_s4_png"
 		},
 		{
-			"name": "chunv_s2_png",
+			"url": "assets/chunv/chunv_s5.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s2.png"
+			"name": "chunv_s5_png"
 		},
 		{
-			"name": "chunv_s3_png",
+			"url": "assets/chunv/chunv_s6.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s3.png"
+			"name": "chunv_s6_png"
 		},
 		{
-			"name": "chunv_s4_png",
+			"url": "assets/jinniu/jinniu_bag.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s4.png"
+			"name": "jinniu_bag_png"
 		},
 		{
-			"name": "chunv_s5_png",
+			"url": "assets/jinniu/jinniu_cs_1.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s5.png"
+			"name": "jinniu_cs_1_png"
 		},
 		{
-			"name": "chunv_s6_png",
+			"url": "assets/jinniu/jinniu_cs_2.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_s6.png"
+			"name": "jinniu_cs_2_png"
 		},
 		{
-			"name": "chunv_youpiao_1_png",
+			"url": "assets/jinniu/jinniu_cs_3.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_youpiao_1.png"
+			"name": "jinniu_cs_3_png"
 		},
 		{
-			"name": "chunv_youpiao_2_png",
+			"url": "assets/jinniu/jinniu_des_1.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_youpiao_2.png"
+			"name": "jinniu_des_1_png"
 		},
 		{
-			"name": "chunv_youpiao_3_png",
+			"url": "assets/jinniu/jinniu_des_2.png",
 			"type": "image",
-			"url": "assets/chunv/chunv_youpiao_3.png"
+			"name": "jinniu_des_2_png"
 		},
 		{
-			"name": "jinniu_bag_png",
+			"url": "assets/jinniu/jinniu_des_3.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_bag.png"
+			"name": "jinniu_des_3_png"
 		},
 		{
-			"name": "jinniu_cs_1_jpg",
+			"url": "assets/jinniu/jinniu_font.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_cs_1.jpg"
+			"name": "jinniu_font_png"
 		},
 		{
-			"name": "jinniu_cs_2_jpg",
+			"url": "assets/jinniu/jinniu_people.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_cs_2.jpg"
+			"name": "jinniu_people_png"
 		},
 		{
-			"name": "jinniu_cs_3_jpg",
+			"url": "assets/jinniu/jinniu_s1.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_cs_3.jpg"
+			"name": "jinniu_s1_png"
 		},
 		{
-			"name": "jinniu_des_1_png",
+			"url": "assets/jinniu/jinniu_s2.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_des_1.png"
+			"name": "jinniu_s2_png"
 		},
 		{
-			"name": "jinniu_des_2_png",
+			"url": "assets/jinniu/jinniu_s3.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_des_2.png"
+			"name": "jinniu_s3_png"
 		},
 		{
-			"name": "jinniu_des_3_png",
+			"url": "assets/jinniu/jinniu_s4.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_des_3.png"
+			"name": "jinniu_s4_png"
 		},
 		{
-			"name": "jinniu_font_png",
+			"url": "assets/jinniu/jinniu_s5.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_font.png"
+			"name": "jinniu_s5_png"
 		},
 		{
-			"name": "jinniu_people_png",
+			"url": "assets/jinniu/jinniu_s6.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_people.png"
+			"name": "jinniu_s6_png"
 		},
 		{
-			"name": "jinniu_s1_png",
+			"url": "assets/juxie/juxie_bag.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s1.png"
+			"name": "juxie_bag_png"
 		},
 		{
-			"name": "jinniu_s2_png",
+			"url": "assets/juxie/juxie_cs_1.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s2.png"
+			"name": "juxie_cs_1_png"
 		},
 		{
-			"name": "jinniu_s3_png",
+			"url": "assets/juxie/juxie_cs_2.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s3.png"
+			"name": "juxie_cs_2_png"
 		},
 		{
-			"name": "jinniu_s4_png",
+			"url": "assets/juxie/juxie_cs_3.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s4.png"
+			"name": "juxie_cs_3_png"
 		},
 		{
-			"name": "jinniu_s5_png",
+			"url": "assets/juxie/juxie_des_1.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s5.png"
+			"name": "juxie_des_1_png"
 		},
 		{
-			"name": "jinniu_s6_png",
+			"url": "assets/juxie/juxie_des_2.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_s6.png"
+			"name": "juxie_des_2_png"
 		},
 		{
-			"name": "jinniu_youpiao_1_png",
+			"url": "assets/juxie/juxie_des_3.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_youpiao_1.png"
+			"name": "juxie_des_3_png"
 		},
 		{
-			"name": "jinniu_youpiao_2_png",
+			"url": "assets/juxie/juxie_font.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_youpiao_2.png"
+			"name": "juxie_font_png"
 		},
 		{
-			"name": "jinniu_youpiao_3_png",
+			"url": "assets/juxie/juxie_people.png",
 			"type": "image",
-			"url": "assets/jinniu/jinniu_youpiao_3.png"
+			"name": "juxie_people_png"
 		},
 		{
-			"name": "juxie_bag_png",
+			"url": "assets/juxie/juxie_s1.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_bag.png"
+			"name": "juxie_s1_png"
 		},
 		{
-			"name": "juxie_cs_1_jpg",
+			"url": "assets/juxie/juxie_s2.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_cs_1.jpg"
+			"name": "juxie_s2_png"
 		},
 		{
-			"name": "juxie_cs_2_jpg",
+			"url": "assets/juxie/juxie_s3.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_cs_2.jpg"
+			"name": "juxie_s3_png"
 		},
 		{
-			"name": "juxie_cs_3_jpg",
+			"url": "assets/juxie/juxie_s4.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_cs_3.jpg"
+			"name": "juxie_s4_png"
 		},
 		{
-			"name": "juxie_des_1_png",
+			"url": "assets/juxie/juxie_s5.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_des_1.png"
+			"name": "juxie_s5_png"
 		},
 		{
-			"name": "juxie_des_2_png",
+			"url": "assets/juxie/juxie_s6.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_des_2.png"
+			"name": "juxie_s6_png"
 		},
 		{
-			"name": "juxie_des_3_png",
+			"url": "assets/sheshou/sheshou_bag.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_des_3.png"
+			"name": "sheshou_bag_png"
 		},
 		{
-			"name": "juxie_font_png",
+			"url": "assets/sheshou/sheshou_cs_1.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_font.png"
+			"name": "sheshou_cs_1_png"
 		},
 		{
-			"name": "juxie_people_png",
+			"url": "assets/sheshou/sheshou_cs_2.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_people.png"
+			"name": "sheshou_cs_2_png"
 		},
 		{
-			"name": "juxie_s1_png",
+			"url": "assets/sheshou/sheshou_cs_3.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s1.png"
+			"name": "sheshou_cs_3_png"
 		},
 		{
-			"name": "juxie_s2_png",
+			"url": "assets/sheshou/sheshou_des_1.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s2.png"
+			"name": "sheshou_des_1_png"
 		},
 		{
-			"name": "juxie_s3_png",
+			"url": "assets/sheshou/sheshou_des_2.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s3.png"
+			"name": "sheshou_des_2_png"
 		},
 		{
-			"name": "juxie_s4_png",
+			"url": "assets/sheshou/sheshou_des_3.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s4.png"
+			"name": "sheshou_des_3_png"
 		},
 		{
-			"name": "juxie_s5_png",
+			"url": "assets/sheshou/sheshou_font.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s5.png"
+			"name": "sheshou_font_png"
 		},
 		{
-			"name": "juxie_s6_png",
+			"url": "assets/sheshou/sheshou_people.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_s6.png"
+			"name": "sheshou_people_png"
 		},
 		{
-			"name": "juxie_youpiao_1_png",
+			"url": "assets/sheshou/sheshou_s1.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_1.png"
+			"name": "sheshou_s1_png"
 		},
 		{
-			"name": "juxie_youpiao_2_png",
+			"url": "assets/sheshou/sheshou_s2.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_2.png"
+			"name": "sheshou_s2_png"
 		},
 		{
-			"name": "juxie_youpiao_3_png",
+			"url": "assets/sheshou/sheshou_s3.png",
 			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_3.png"
+			"name": "sheshou_s3_png"
 		},
 		{
-			"name": "sheshou_bag_png",
+			"url": "assets/sheshou/sheshou_s4.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_bag.png"
+			"name": "sheshou_s4_png"
 		},
 		{
-			"name": "sheshou_cs_1_jpg",
+			"url": "assets/sheshou/sheshou_s5.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_cs_1.jpg"
+			"name": "sheshou_s5_png"
 		},
 		{
-			"name": "sheshou_cs_2_jpg",
+			"url": "assets/sheshou/sheshou_s6.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_cs_2.jpg"
+			"name": "sheshou_s6_png"
 		},
 		{
-			"name": "sheshou_cs_3_jpg",
+			"url": "assets/shizi/shizi_bag.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_cs_3.jpg"
+			"name": "shizi_bag_png"
 		},
 		{
-			"name": "sheshou_des_1_png",
+			"url": "assets/shizi/shizi_cs_1.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_des_1.png"
+			"name": "shizi_cs_1_png"
 		},
 		{
-			"name": "sheshou_des_2_png",
+			"url": "assets/shizi/shizi_cs_2.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_des_2.png"
+			"name": "shizi_cs_2_png"
 		},
 		{
-			"name": "sheshou_des_3_png",
+			"url": "assets/shizi/shizi_cs_3.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_des_3.png"
+			"name": "shizi_cs_3_png"
 		},
 		{
-			"name": "sheshou_font_png",
+			"url": "assets/shizi/shizi_des_1.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_font.png"
+			"name": "shizi_des_1_png"
 		},
 		{
-			"name": "sheshou_people_png",
+			"url": "assets/shizi/shizi_des_2.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_people.png"
+			"name": "shizi_des_2_png"
 		},
 		{
-			"name": "sheshou_s1_png",
+			"url": "assets/shizi/shizi_des_3.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s1.png"
+			"name": "shizi_des_3_png"
 		},
 		{
-			"name": "sheshou_s2_png",
+			"url": "assets/shizi/shizi_font.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s2.png"
+			"name": "shizi_font_png"
 		},
 		{
-			"name": "sheshou_s3_png",
+			"url": "assets/shizi/shizi_people.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s3.png"
+			"name": "shizi_people_png"
 		},
 		{
-			"name": "sheshou_s4_png",
+			"url": "assets/shizi/shizi_s1.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s4.png"
+			"name": "shizi_s1_png"
 		},
 		{
-			"name": "sheshou_s5_png",
+			"url": "assets/shizi/shizi_s2.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s5.png"
+			"name": "shizi_s2_png"
 		},
 		{
-			"name": "sheshou_s6_png",
+			"url": "assets/shizi/shizi_s3.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_s6.png"
+			"name": "shizi_s3_png"
 		},
 		{
-			"name": "sheshou_youpiao_1_png",
+			"url": "assets/shizi/shizi_s4.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_youpiao_1.png"
+			"name": "shizi_s4_png"
 		},
 		{
-			"name": "sheshou_youpiao_2_png",
+			"url": "assets/shizi/shizi_s5.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_youpiao_2.png"
+			"name": "shizi_s5_png"
 		},
 		{
-			"name": "sheshou_youpiao_3_png",
+			"url": "assets/shizi/shizi_s6.png",
 			"type": "image",
-			"url": "assets/sheshou/sheshou_youpiao_3.png"
+			"name": "shizi_s6_png"
 		},
 		{
-			"name": "shizi_bag_png",
+			"url": "assets/shuangyu/shuangyu_bag.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_bag.png"
+			"name": "shuangyu_bag_png"
 		},
 		{
-			"name": "shizi_cs_1_jpg",
+			"url": "assets/shuangyu/shuangyu_cs_1.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_cs_1.jpg"
+			"name": "shuangyu_cs_1_png"
 		},
 		{
-			"name": "shizi_cs_2_jpg",
+			"url": "assets/shuangyu/shuangyu_cs_2.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_cs_2.jpg"
+			"name": "shuangyu_cs_2_png"
 		},
 		{
-			"name": "shizi_cs_3_jpg",
+			"url": "assets/shuangyu/shuangyu_cs_3.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_cs_3.jpg"
+			"name": "shuangyu_cs_3_png"
 		},
 		{
-			"name": "shizi_des_1_png",
+			"url": "assets/shuangyu/shuangyu_des_1.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_des_1.png"
+			"name": "shuangyu_des_1_png"
 		},
 		{
-			"name": "shizi_des_2_png",
+			"url": "assets/shuangyu/shuangyu_des_2.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_des_2.png"
+			"name": "shuangyu_des_2_png"
 		},
 		{
-			"name": "shizi_des_3_png",
+			"url": "assets/shuangyu/shuangyu_des_3.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_des_3.png"
+			"name": "shuangyu_des_3_png"
 		},
 		{
-			"name": "shizi_font_png",
+			"url": "assets/shuangyu/shuangyu_font.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_font.png"
+			"name": "shuangyu_font_png"
 		},
 		{
-			"name": "shizi_people_png",
+			"url": "assets/shuangyu/shuangyu_people.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_people.png"
+			"name": "shuangyu_people_png"
 		},
 		{
-			"name": "shizi_s1_png",
+			"url": "assets/shuangyu/shuangyu_s1.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s1.png"
+			"name": "shuangyu_s1_png"
 		},
 		{
-			"name": "shizi_s2_png",
+			"url": "assets/shuangyu/shuangyu_s2.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s2.png"
+			"name": "shuangyu_s2_png"
 		},
 		{
-			"name": "shizi_s3_png",
+			"url": "assets/shuangyu/shuangyu_s3.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s3.png"
+			"name": "shuangyu_s3_png"
 		},
 		{
-			"name": "shizi_s4_png",
+			"url": "assets/shuangyu/shuangyu_s4.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s4.png"
+			"name": "shuangyu_s4_png"
 		},
 		{
-			"name": "shizi_s5_png",
+			"url": "assets/shuangyu/shuangyu_s5.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s5.png"
+			"name": "shuangyu_s5_png"
 		},
 		{
-			"name": "shizi_s6_png",
+			"url": "assets/shuangyu/shuangyu_s6.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_s6.png"
+			"name": "shuangyu_s6_png"
 		},
 		{
-			"name": "shizi_youpiao_1_png",
+			"url": "assets/shuangzi/shuangzi_bag.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_youpiao_1.png"
+			"name": "shuangzi_bag_png"
 		},
 		{
-			"name": "shizi_youpiao_2_png",
+			"url": "assets/shuangzi/shuangzi_cs_1.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_youpiao_2.png"
+			"name": "shuangzi_cs_1_png"
 		},
 		{
-			"name": "shizi_youpiao_3_png",
+			"url": "assets/shuangzi/shuangzi_cs_2.png",
 			"type": "image",
-			"url": "assets/shizi/shizi_youpiao_3.png"
+			"name": "shuangzi_cs_2_png"
 		},
 		{
-			"name": "shuangyu_bag_png",
+			"url": "assets/shuangzi/shuangzi_cs_3.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_bag.png"
+			"name": "shuangzi_cs_3_png"
 		},
 		{
-			"name": "shuangyu_cs_1_jpg",
+			"url": "assets/shuangzi/shuangzi_des_1.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_cs_1.jpg"
+			"name": "shuangzi_des_1_png"
 		},
 		{
-			"name": "shuangyu_cs_2_jpg",
+			"url": "assets/shuangzi/shuangzi_des_2.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_cs_2.jpg"
+			"name": "shuangzi_des_2_png"
 		},
 		{
-			"name": "shuangyu_cs_3_jpg",
+			"url": "assets/shuangzi/shuangzi_des_3.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_cs_3.jpg"
+			"name": "shuangzi_des_3_png"
 		},
 		{
-			"name": "shuangyu_des_1_png",
+			"url": "assets/shuangzi/shuangzi_font.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_des_1.png"
+			"name": "shuangzi_font_png"
 		},
 		{
-			"name": "shuangyu_des_2_png",
+			"url": "assets/shuangzi/shuangzi_people.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_des_2.png"
+			"name": "shuangzi_people_png"
 		},
 		{
-			"name": "shuangyu_des_3_png",
+			"url": "assets/shuangzi/shuangzi_s1.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_des_3.png"
+			"name": "shuangzi_s1_png"
 		},
 		{
-			"name": "shuangyu_font_png",
+			"url": "assets/shuangzi/shuangzi_s2.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_font.png"
+			"name": "shuangzi_s2_png"
 		},
 		{
-			"name": "shuangyu_people_png",
+			"url": "assets/shuangzi/shuangzi_s3.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_people.png"
+			"name": "shuangzi_s3_png"
 		},
 		{
-			"name": "shuangyu_s1_png",
+			"url": "assets/shuangzi/shuangzi_s4.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s1.png"
+			"name": "shuangzi_s4_png"
 		},
 		{
-			"name": "shuangyu_s2_png",
+			"url": "assets/shuangzi/shuangzi_s5.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s2.png"
+			"name": "shuangzi_s5_png"
 		},
 		{
-			"name": "shuangyu_s3_png",
+			"url": "assets/shuangzi/shuangzi_s6.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s3.png"
+			"name": "shuangzi_s6_png"
 		},
 		{
-			"name": "shuangyu_s4_png",
+			"url": "assets/shuiping/shuiping_bag.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s4.png"
+			"name": "shuiping_bag_png"
 		},
 		{
-			"name": "shuangyu_s5_png",
+			"url": "assets/shuiping/shuiping_cs_1.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s5.png"
+			"name": "shuiping_cs_1_png"
 		},
 		{
-			"name": "shuangyu_s6_png",
+			"url": "assets/shuiping/shuiping_cs_2.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_s6.png"
+			"name": "shuiping_cs_2_png"
 		},
 		{
-			"name": "shuangyu_youpiao_1_png",
+			"url": "assets/shuiping/shuiping_cs_3.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_youpiao_1.png"
+			"name": "shuiping_cs_3_png"
 		},
 		{
-			"name": "shuangyu_youpiao_2_png",
+			"url": "assets/shuiping/shuiping_des_1.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_youpiao_2.png"
+			"name": "shuiping_des_1_png"
 		},
 		{
-			"name": "shuangyu_youpiao_3_png",
+			"url": "assets/shuiping/shuiping_des_2.png",
 			"type": "image",
-			"url": "assets/shuangyu/shuangyu_youpiao_3.png"
+			"name": "shuiping_des_2_png"
 		},
 		{
-			"name": "shuangzi_bag_png",
+			"url": "assets/shuiping/shuiping_des_3.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_bag.png"
+			"name": "shuiping_des_3_png"
 		},
 		{
-			"name": "shuangzi_cs_1_jpg",
+			"url": "assets/shuiping/shuiping_font.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_cs_1.jpg"
+			"name": "shuiping_font_png"
 		},
 		{
-			"name": "shuangzi_cs_2_jpg",
+			"url": "assets/shuiping/shuiping_people.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_cs_2.jpg"
+			"name": "shuiping_people_png"
 		},
 		{
-			"name": "shuangzi_cs_3_jpg",
+			"url": "assets/shuiping/shuiping_s1.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_cs_3.jpg"
+			"name": "shuiping_s1_png"
 		},
 		{
-			"name": "shuangzi_des_1_png",
+			"url": "assets/shuiping/shuiping_s2.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_des_1.png"
+			"name": "shuiping_s2_png"
 		},
 		{
-			"name": "shuangzi_des_2_png",
+			"url": "assets/shuiping/shuiping_s3.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_des_2.png"
+			"name": "shuiping_s3_png"
 		},
 		{
-			"name": "shuangzi_des_3_png",
+			"url": "assets/shuiping/shuiping_s4.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_des_3.png"
+			"name": "shuiping_s4_png"
 		},
 		{
-			"name": "shuangzi_font_png",
+			"url": "assets/shuiping/shuiping_s5.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_font.png"
+			"name": "shuiping_s5_png"
 		},
 		{
-			"name": "shuangzi_people_png",
+			"url": "assets/shuiping/shuiping_s6.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_people.png"
+			"name": "shuiping_s6_png"
 		},
 		{
-			"name": "shuangzi_s1_png",
+			"url": "assets/tianping/tianping_bag.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s1.png"
+			"name": "tianping_bag_png"
 		},
 		{
-			"name": "shuangzi_s2_png",
+			"url": "assets/tianping/tianping_cs_1.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s2.png"
+			"name": "tianping_cs_1_png"
 		},
 		{
-			"name": "shuangzi_s3_png",
+			"url": "assets/tianping/tianping_cs_2.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s3.png"
+			"name": "tianping_cs_2_png"
 		},
 		{
-			"name": "shuangzi_s4_png",
+			"url": "assets/tianping/tianping_cs_3.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s4.png"
+			"name": "tianping_cs_3_png"
 		},
 		{
-			"name": "shuangzi_s5_png",
+			"url": "assets/tianping/tianping_des_1.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s5.png"
+			"name": "tianping_des_1_png"
 		},
 		{
-			"name": "shuangzi_s6_png",
+			"url": "assets/tianping/tianping_des_2.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_s6.png"
+			"name": "tianping_des_2_png"
 		},
 		{
-			"name": "shuangzi_youpiao_1_png",
+			"url": "assets/tianping/tianping_des_3.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_youpiao_1.png"
+			"name": "tianping_des_3_png"
 		},
 		{
-			"name": "shuangzi_youpiao_2_png",
+			"url": "assets/tianping/tianping_font.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_youpiao_2.png"
+			"name": "tianping_font_png"
 		},
 		{
-			"name": "shuangzi_youpiao_3_png",
+			"url": "assets/tianping/tianping_people.png",
 			"type": "image",
-			"url": "assets/shuangzi/shuangzi_youpiao_3.png"
+			"name": "tianping_people_png"
 		},
 		{
-			"name": "shuiping_bag_png",
+			"url": "assets/tianping/tianping_s1.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_bag.png"
+			"name": "tianping_s1_png"
 		},
 		{
-			"name": "shuiping_cs_1_jpg",
+			"url": "assets/tianping/tianping_s2.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_cs_1.jpg"
+			"name": "tianping_s2_png"
 		},
 		{
-			"name": "shuiping_cs_2_jpg",
+			"url": "assets/tianping/tianping_s3.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_cs_2.jpg"
+			"name": "tianping_s3_png"
 		},
 		{
-			"name": "shuiping_cs_3_jpg",
+			"url": "assets/tianping/tianping_s4.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_cs_3.jpg"
+			"name": "tianping_s4_png"
 		},
 		{
-			"name": "shuiping_des_1_png",
+			"url": "assets/tianping/tianping_s5.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_des_1.png"
+			"name": "tianping_s5_png"
 		},
 		{
-			"name": "shuiping_des_2_png",
+			"url": "assets/tianping/tianping_s6.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_des_2.png"
+			"name": "tianping_s6_png"
 		},
 		{
-			"name": "shuiping_des_3_png",
+			"url": "assets/tianxie/tianxie_bag.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_des_3.png"
+			"name": "tianxie_bag_png"
 		},
 		{
-			"name": "shuiping_font_png",
+			"url": "assets/tianxie/tianxie_cs_1.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_font.png"
+			"name": "tianxie_cs_1_png"
 		},
 		{
-			"name": "shuiping_people_png",
+			"url": "assets/tianxie/tianxie_cs_2.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_people.png"
+			"name": "tianxie_cs_2_png"
 		},
 		{
-			"name": "shuiping_s1_png",
+			"url": "assets/tianxie/tianxie_cs_3.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s1.png"
+			"name": "tianxie_cs_3_png"
 		},
 		{
-			"name": "shuiping_s2_png",
+			"url": "assets/tianxie/tianxie_des_1.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s2.png"
+			"name": "tianxie_des_1_png"
 		},
 		{
-			"name": "shuiping_s3_png",
+			"url": "assets/tianxie/tianxie_des_2.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s3.png"
+			"name": "tianxie_des_2_png"
 		},
 		{
-			"name": "shuiping_s4_png",
+			"url": "assets/tianxie/tianxie_des_3.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s4.png"
+			"name": "tianxie_des_3_png"
 		},
 		{
-			"name": "shuiping_s5_png",
+			"url": "assets/tianxie/tianxie_font.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s5.png"
+			"name": "tianxie_font_png"
 		},
 		{
-			"name": "shuiping_s6_png",
+			"url": "assets/tianxie/tianxie_people.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_s6.png"
+			"name": "tianxie_people_png"
 		},
 		{
-			"name": "shuiping_youpiao_1_png",
+			"url": "assets/tianxie/tianxie_s1.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_youpiao_1.png"
+			"name": "tianxie_s1_png"
 		},
 		{
-			"name": "shuiping_youpiao_2_png",
+			"url": "assets/tianxie/tianxie_s2.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_youpiao_2.png"
+			"name": "tianxie_s2_png"
 		},
 		{
-			"name": "shuiping_youpiao_3_png",
+			"url": "assets/tianxie/tianxie_s3.png",
 			"type": "image",
-			"url": "assets/shuiping/shuiping_youpiao_3.png"
+			"name": "tianxie_s3_png"
 		},
 		{
-			"name": "tianping_bag_png",
+			"url": "assets/tianxie/tianxie_s4.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_bag.png"
+			"name": "tianxie_s4_png"
 		},
 		{
-			"name": "tianping_cs_1_jpg",
+			"url": "assets/tianxie/tianxie_s5.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_cs_1.jpg"
+			"name": "tianxie_s5_png"
 		},
 		{
-			"name": "tianping_cs_2_jpg",
+			"url": "assets/tianxie/tianxie_s6.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_cs_2.jpg"
+			"name": "tianxie_s6_png"
 		},
 		{
-			"name": "tianping_cs_3_jpg",
+			"url": "assets/juxie/juxie_bag.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_cs_3.jpg"
+			"name": "juxie_bag_png"
 		},
 		{
-			"name": "tianping_des_1_png",
+			"url": "assets/juxie/juxie_cs_1.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_des_1.png"
+			"name": "juxie_cs_1_png"
 		},
 		{
-			"name": "tianping_des_2_png",
+			"url": "assets/juxie/juxie_cs_2.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_des_2.png"
+			"name": "juxie_cs_2_png"
 		},
 		{
-			"name": "tianping_des_3_png",
+			"url": "assets/juxie/juxie_cs_3.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_des_3.png"
+			"name": "juxie_cs_3_png"
 		},
 		{
-			"name": "tianping_font_png",
+			"url": "assets/juxie/juxie_des_1.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_font.png"
+			"name": "juxie_des_1_png"
 		},
 		{
-			"name": "tianping_people_png",
+			"url": "assets/juxie/juxie_des_2.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_people.png"
+			"name": "juxie_des_2_png"
 		},
 		{
-			"name": "tianping_s1_png",
+			"url": "assets/juxie/juxie_des_3.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s1.png"
+			"name": "juxie_des_3_png"
 		},
 		{
-			"name": "tianping_s2_png",
+			"url": "assets/juxie/juxie_font.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s2.png"
+			"name": "juxie_font_png"
 		},
 		{
-			"name": "tianping_s3_png",
+			"url": "assets/juxie/juxie_people.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s3.png"
+			"name": "juxie_people_png"
 		},
 		{
-			"name": "tianping_s4_png",
+			"url": "assets/juxie/juxie_s1.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s4.png"
+			"name": "juxie_s1_png"
 		},
 		{
-			"name": "tianping_s5_png",
+			"url": "assets/juxie/juxie_s2.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s5.png"
+			"name": "juxie_s2_png"
 		},
 		{
-			"name": "tianping_s6_png",
+			"url": "assets/juxie/juxie_s3.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_s6.png"
+			"name": "juxie_s3_png"
 		},
 		{
-			"name": "tianping_youpiao_1_png",
+			"url": "assets/juxie/juxie_s4.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_youpiao_1.png"
+			"name": "juxie_s4_png"
 		},
 		{
-			"name": "tianping_youpiao_2_png",
+			"url": "assets/juxie/juxie_s5.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_youpiao_2.png"
+			"name": "juxie_s5_png"
 		},
 		{
-			"name": "tianping_youpiao_3_png",
+			"url": "assets/juxie/juxie_s6.png",
 			"type": "image",
-			"url": "assets/tianping/tianping_youpiao_3.png"
+			"name": "juxie_s6_png"
 		},
 		{
-			"name": "tianxie_bag_png",
+			"url": "assets/index_music_stop.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_bag.png"
+			"name": "index_music_stop_png"
 		},
 		{
-			"name": "tianxie_cs_1_jpg",
+			"url": "assets/history_back.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_cs_1.jpg"
+			"name": "history_back_png"
 		},
 		{
-			"name": "tianxie_cs_2_jpg",
+			"url": "assets/daoju_close.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_cs_2.jpg"
+			"name": "daoju_close_png"
 		},
 		{
-			"name": "tianxie_cs_3_jpg",
+			"url": "assets/daoju_bag.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_cs_3.jpg"
+			"name": "daoju_bag_png"
 		},
 		{
-			"name": "tianxie_des_1_png",
+			"url": "assets/end_focus.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_des_1.png"
+			"name": "end_focus_png"
 		},
 		{
-			"name": "tianxie_des_2_png",
+			"url": "assets/end_share.png",
 			"type": "image",
-			"url": "assets/tianxie/tianxie_des_2.png"
-		},
-		{
-			"name": "tianxie_des_3_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_des_3.png"
-		},
-		{
-			"name": "tianxie_font_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_font.png"
-		},
-		{
-			"name": "tianxie_people_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_people.png"
-		},
-		{
-			"name": "tianxie_s1_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s1.png"
-		},
-		{
-			"name": "tianxie_s2_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s2.png"
-		},
-		{
-			"name": "tianxie_s3_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s3.png"
-		},
-		{
-			"name": "tianxie_s4_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s4.png"
-		},
-		{
-			"name": "tianxie_s5_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s5.png"
-		},
-		{
-			"name": "tianxie_s6_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_s6.png"
-		},
-		{
-			"name": "tianxie_youpiao_1_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_youpiao_1.png"
-		},
-		{
-			"name": "tianxie_youpiao_2_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_youpiao_2.png"
-		},
-		{
-			"name": "tianxie_youpiao_3_png",
-			"type": "image",
-			"url": "assets/tianxie/tianxie_youpiao_3.png"
-		},
-		{
-			"name": "juxie_bag_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_bag.png"
-		},
-		{
-			"name": "juxie_cs_1_jpg",
-			"type": "image",
-			"url": "assets/juxie/juxie_cs_1.jpg"
-		},
-		{
-			"name": "juxie_cs_2_jpg",
-			"type": "image",
-			"url": "assets/juxie/juxie_cs_2.jpg"
-		},
-		{
-			"name": "juxie_cs_3_jpg",
-			"type": "image",
-			"url": "assets/juxie/juxie_cs_3.jpg"
-		},
-		{
-			"name": "juxie_des_1_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_des_1.png"
-		},
-		{
-			"name": "juxie_des_2_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_des_2.png"
-		},
-		{
-			"name": "juxie_des_3_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_des_3.png"
-		},
-		{
-			"name": "juxie_font_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_font.png"
-		},
-		{
-			"name": "juxie_people_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_people.png"
-		},
-		{
-			"name": "juxie_s1_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s1.png"
-		},
-		{
-			"name": "juxie_s2_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s2.png"
-		},
-		{
-			"name": "juxie_s3_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s3.png"
-		},
-		{
-			"name": "juxie_s4_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s4.png"
-		},
-		{
-			"name": "juxie_s5_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s5.png"
-		},
-		{
-			"name": "juxie_s6_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_s6.png"
-		},
-		{
-			"name": "juxie_youpiao_1_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_1.png"
-		},
-		{
-			"name": "juxie_youpiao_2_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_2.png"
-		},
-		{
-			"name": "juxie_youpiao_3_png",
-			"type": "image",
-			"url": "assets/juxie/juxie_youpiao_3.png"
-		},
-		{
-			"name": "index_music_stop_png",
-			"type": "image",
-			"url": "assets/index_music_stop.png"
-		},
-		{
-			"name": "history_back_png",
-			"type": "image",
-			"url": "assets/history_back.png"
-		},
-		{
-			"name": "daoju_close_png",
-			"type": "image",
-			"url": "assets/daoju_close.png"
-		},
-		{
-			"name": "daoju_bag_png",
-			"type": "image",
-			"url": "assets/daoju_bag.png"
+			"name": "end_share_png"
 		}
 	]
 }

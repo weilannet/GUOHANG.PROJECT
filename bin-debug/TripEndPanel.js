@@ -10,14 +10,14 @@ var TripEndPanel = (function (_super) {
         this.init();
         this.card_Sprite.touchEnabled = true;
         this.card_Sprite.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = true;
+        this.historyBack.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
     //初始化
     p.init = function () {
-        if (this.card_Sprite) {
-            return;
-        }
         this.stageW = this.width;
         this.stageH = this.height;
+        this.removeChildren();
         //daoju_Sprite
         this.card_Sprite = new egret.Sprite();
         this.card_Sprite.graphics.drawRect(0, 0, this.stageW, this.stageH);
@@ -31,18 +31,27 @@ var TripEndPanel = (function (_super) {
         shp.width = this.stageW;
         shp.height = this.stageH;
         this.card_Sprite.addChild(shp);
+        this.historyBack = new egret.Bitmap(RES.getRes('history_back_png'));
+        // this.historyBack.width = _stageW;
+        // this.historyBack.height = _stageH;
+        this.historyBack.x = 20;
+        this.historyBack.y = 20;
+        this.addChild(this.historyBack);
     };
     p.onTouchTab = function (e) {
         console.log('送好友明信片');
+    };
+    p.onTouchBackTab = function (e) {
+        ViewManager.getInstance().order(TripDaojuPanel.TRIP_DAOJU, this);
     };
     //结束界面，释放监听
     p.end = function () {
         this.card_Sprite.touchEnabled = false;
         if (this.card_Sprite.hasEventListener(egret.TouchEvent.TOUCH_TAP))
             this.card_Sprite.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
-        this.card_Sprite.touchEnabled = false;
-        if (this.card_Sprite.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-            this.card_Sprite.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+        this.historyBack.touchEnabled = false;
+        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
     TripEndPanel.TripEnd = "TRIP_END";
     return TripEndPanel;

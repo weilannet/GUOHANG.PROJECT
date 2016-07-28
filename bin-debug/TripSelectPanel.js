@@ -49,48 +49,6 @@ var TripSelectPanel = (function (_super) {
         if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
             this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
     };
-    /**
-    * preload资源组加载完成
-    * Preload resource group is loaded
-    */
-    p.onResourceLoadComplete = function (event) {
-        if (event.groupName == "xz_mojieload") {
-            this.removeChild(this.loadingView);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
-            RES.removeEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
-            //资源加载完成后，进行跳转
-            ViewManager.getInstance().order(TripSelectPanel.TRIP_SELECT, this);
-        }
-    };
-    /**
-     * 资源组加载出错
-     *  The resource group loading failed
-     */
-    p.onItemLoadError = function (event) {
-        console.warn("Url:" + event.resItem.url + " has failed to load");
-    };
-    /**
-     * 资源组加载出错
-     *  The resource group loading failed
-     */
-    p.onResourceLoadError = function (event) {
-        //TODO
-        console.warn("Group:" + event.groupName + " has failed to load");
-        //忽略加载失败的项目
-        //Ignore the loading failed projects
-        this.onResourceLoadComplete(event);
-    };
-    /**
-     * preload资源组加载进度
-     * Loading process of preload resource group
-     */
-    p.onResourceProgress = function (event) {
-        if (event.groupName == "preload") {
-            this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
-        }
-    };
     TripSelectPanel.TRIP_SELECT = "TRIP_SELECT";
     return TripSelectPanel;
 }(egret.Sprite));

@@ -22,6 +22,7 @@ class TripPeoplePanel extends egret.Sprite {
 
     //开启监听
     public start() {
+         
         this.init();
         this.bagBtn.touchEnabled = true;
         this.bagBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
@@ -33,7 +34,8 @@ class TripPeoplePanel extends egret.Sprite {
     }
     //初始化
     private init() {
-        if (this.xz_Sprite) { return; }
+        //返回时切换星座，星座不变的问题
+        // if (this.xz_Sprite) { return; }
         this.stageW = this.width;
         this.stageH = this.height;
 
@@ -67,7 +69,7 @@ class TripPeoplePanel extends egret.Sprite {
         this.showCard.width = this.xz_Sprite.width;
         this.showCard.height = this.xz_Sprite.height;
         this.xz_Sprite.addChild(this.showCard);
-
+          
         this.xz_peoplePic = new egret.Bitmap(RES.getRes(Common.XZ_Name+'_people_png'));
          
         this.xz_peoplePic.x = (this.xz_Sprite.width - this.xz_peoplePic.width) * 0.5 + this.xz_peoplePic.width * 0.5;
@@ -106,15 +108,8 @@ class TripPeoplePanel extends egret.Sprite {
     }
     
     private onTouchTab(e: egret.TouchEvent) {
-       
-        //取消事件监听
-        this.bagBtn.touchEnabled = false;
-        if (this.bagBtn.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-            this.bagBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
-         this.historyBack.touchEnabled = false;
-        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
-            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
- 
+        
+        
         ViewManager.getInstance().order(TripDaojuPanel.TRIP_DAOJU, this);
 
     }
@@ -128,7 +123,12 @@ class TripPeoplePanel extends egret.Sprite {
     //结束界面，释放监听
     public end() {
         //将六个道具的事件监听取消
-       
+       this.bagBtn.touchEnabled = false;
+        if (this.bagBtn.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.bagBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchTab, this);
+         this.historyBack.touchEnabled = false;
+        if (this.historyBack.hasEventListener(egret.TouchEvent.TOUCH_TAP))
+            this.historyBack.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchBackTab, this);
 
     }
 

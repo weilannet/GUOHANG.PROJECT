@@ -24,15 +24,15 @@ var TripDaojuPanel = (function (_super) {
     };
     //初始化
     p.init = function () {
-        if (this.daoju_Sprite) {
-            return;
-        }
         this.stageW = this.width;
         this.stageH = this.height;
+        Common.XZ_head = "0";
+        Common.XZ_hand = "0";
         //创建弹出层部分内容
         this.showBag();
     };
     p.showBag = function () {
+        this.removeChildren();
         //以下为弹出层部分内容 
         this.daoju_Sprite = new egret.Sprite();
         this.daoju_Sprite.graphics.drawRect(0, 0, this.stageW, this.stageH);
@@ -46,65 +46,71 @@ var TripDaojuPanel = (function (_super) {
         shp.width = this.stageW;
         shp.height = this.stageH;
         this.daoju_Sprite.addChild(shp);
-        this.closeBtn = new egret.Bitmap(RES.getRes('daoju_close_png'));
-        // this.historyBack.width = _stageW;
-        // this.historyBack.height = _stageH;
-        this.closeBtn.x = this.stageW * 0.8;
-        this.closeBtn.y = 20;
+        if (!this.closeBtn) {
+            this.closeBtn = new egret.Bitmap(RES.getRes('daoju_close_png'));
+            // this.historyBack.width = _stageW;
+            // this.historyBack.height = _stageH;
+            this.closeBtn.x = this.stageW * 0.8;
+            this.closeBtn.y = 20;
+        }
         this.daoju_Sprite.addChild(this.closeBtn);
-        this.daojuCenter = new egret.Bitmap(RES.getRes('daoju_bag_png'));
-        //若调整了锚点，居中时需要加上锚点的距离
-        this.daojuCenter.x = (this.daoju_Sprite.width - this.daojuCenter.width) * 0.5 + this.daojuCenter.width * 0.5;
-        //居中的，向上提200个点
-        this.daojuCenter.y = (this.daoju_Sprite.height - this.daojuCenter.height) * 0.5 + this.daojuCenter.height * 0.5;
-        this.daojuCenter.anchorOffsetX = this.daojuCenter.width * 0.5;
-        this.daojuCenter.anchorOffsetY = this.daojuCenter.height * 0.5;
-        this.daojuCenter.scaleX = this.daojuCenter.scaleY = 0.7;
+        if (!this.daojuCenter) {
+            this.daojuCenter = new egret.Bitmap(RES.getRes('daoju_bag_png'));
+            //若调整了锚点，居中时需要加上锚点的距离
+            this.daojuCenter.x = (this.daoju_Sprite.width - this.daojuCenter.width) * 0.5 + this.daojuCenter.width * 0.5;
+            //居中的，向上提200个点
+            this.daojuCenter.y = (this.daoju_Sprite.height - this.daojuCenter.height) * 0.5 + this.daojuCenter.height * 0.5;
+            this.daojuCenter.anchorOffsetX = this.daojuCenter.width * 0.5;
+            this.daojuCenter.anchorOffsetY = this.daojuCenter.height * 0.5;
+            this.daojuCenter.scaleX = this.daojuCenter.scaleY = 0.7;
+        }
         this.daoju_Sprite.addChild(this.daojuCenter);
-        var distance = 200;
+        var ydistance = 180;
+        var xdistance = 150;
+        var xscale = 0.6;
         this.daoju1 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s1_png'));
-        this.daoju1.x = this.daojuCenter.x;
-        this.daoju1.y = this.daojuCenter.y - distance;
+        this.daoju1.x = this.daojuCenter.x - 150;
+        this.daoju1.y = this.daojuCenter.y - ydistance;
         this.daoju1.anchorOffsetX = this.daoju1.anchorOffsetY = this.daoju1.width * 0.5;
-        this.daoju1.scaleX = this.daoju1.scaleY = 0.8;
+        this.daoju1.scaleX = this.daoju1.scaleY = xscale;
         this.daoju_Sprite.addChild(this.daoju1);
-        this.daoju1.touchEnabled = true;
-        this.daoju1.name = this.getRandomNum();
+        this.daoju1.name = "1";
         this.daoju2 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s2_png'));
         this.daoju2.x = this.daojuCenter.x;
-        this.daoju2.y = this.daojuCenter.y + distance;
+        this.daoju2.y = this.daojuCenter.y - ydistance;
         this.daoju2.anchorOffsetX = this.daoju2.anchorOffsetY = this.daoju2.width * 0.5;
-        this.daoju2.scaleX = this.daoju2.scaleY = 0.8;
+        this.daoju2.scaleX = this.daoju2.scaleY = xscale;
         this.daoju_Sprite.addChild(this.daoju2);
-        this.daoju2.name = this.getRandomNum();
+        this.daoju2.touchEnabled = true;
+        this.daoju2.name = "2";
         this.daoju3 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s3_png'));
-        this.daoju3.x = this.daojuCenter.x - 150;
-        this.daoju3.y = this.daojuCenter.y - distance;
+        this.daoju3.x = this.daojuCenter.x + 150;
+        this.daoju3.y = this.daojuCenter.y - ydistance;
         this.daoju3.anchorOffsetX = this.daoju3.anchorOffsetY = this.daoju3.width * 0.5;
-        this.daoju3.scaleX = this.daoju3.scaleY = 0.8;
+        this.daoju3.scaleX = this.daoju3.scaleY = xscale;
         this.daoju_Sprite.addChild(this.daoju3);
-        this.daoju3.name = this.getRandomNum();
+        this.daoju3.name = "3";
         this.daoju4 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s4_png'));
         this.daoju4.x = this.daojuCenter.x - 150;
-        this.daoju4.y = this.daojuCenter.y + distance;
+        this.daoju4.y = this.daojuCenter.y + ydistance;
         this.daoju4.anchorOffsetX = this.daoju4.anchorOffsetY = this.daoju4.width * 0.5;
-        this.daoju4.scaleX = this.daoju4.scaleY = 0.8;
+        this.daoju4.scaleX = this.daoju4.scaleY = xscale;
         this.daoju_Sprite.addChild(this.daoju4);
-        this.daoju4.name = this.getRandomNum();
+        this.daoju4.name = "4";
         this.daoju5 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s5_png'));
-        this.daoju5.x = this.daojuCenter.x + 150;
-        this.daoju5.y = this.daojuCenter.y - distance;
+        this.daoju5.x = this.daojuCenter.x;
+        this.daoju5.y = this.daojuCenter.y + ydistance;
         this.daoju5.anchorOffsetX = this.daoju5.anchorOffsetY = this.daoju5.width * 0.5;
-        this.daoju5.scaleX = this.daoju5.scaleY = 0.8;
+        this.daoju5.scaleX = this.daoju5.scaleY = xscale;
         this.daoju_Sprite.addChild(this.daoju5);
-        this.daoju5.name = this.getRandomNum();
+        this.daoju5.name = "5";
         this.daoju6 = new egret.Bitmap(RES.getRes(Common.XZ_Name + '_s6_png'));
         this.daoju6.x = this.daojuCenter.x + 150;
-        this.daoju6.y = this.daojuCenter.y + distance;
+        this.daoju6.y = this.daojuCenter.y + ydistance;
         this.daoju6.anchorOffsetX = this.daoju6.anchorOffsetY = this.daoju6.width * 0.5;
-        this.daoju6.scaleX = this.daoju6.scaleY = 0.8;
+        this.daoju6.scaleX = this.daoju6.scaleY = 0.6;
         this.daoju_Sprite.addChild(this.daoju6);
-        this.daoju6.name = this.getRandomNum();
+        this.daoju6.name = "6";
     };
     p.onTouchTab = function (e) {
         // //停掉动画
@@ -116,12 +122,33 @@ var TripDaojuPanel = (function (_super) {
         // this.addChild(this.daoju_Sprite); 
     };
     p.onDaojuTouch = function (e) {
-        console.log(e.target.name);
+        //console.log(e.target.name);
         //修改全局变量，点到1或2或3道具，加载城市图片  xz_country_1
-        Common.XZ_Daoju = e.target.name;
-        //将容器remove掉，加载第二个页面
-        this.removeChild(this.daoju_Sprite);
-        ViewManager.getInstance().order(TripEndPanel.TripEnd, this);
+        switch (e.target.name) {
+            case "1":
+            case "2":
+            case "3":
+                Common.XZ_head = e.target.name;
+                break;
+            case "4":
+            case "5":
+            case "6":
+                Common.XZ_hand = e.target.name;
+            default:
+                break;
+        }
+        egret.Tween.get(this.daoju_Sprite.getChildByName(e.target.name)).to({ x: this.daojuCenter.x, y: this.daojuCenter.y, alpha: 0 }, 200);
+        if (parseInt(Common.XZ_head) > 0 && parseInt(Common.XZ_hand) > 0) {
+            var sum = (parseInt(Common.XZ_hand) - 3) + parseInt(Common.XZ_head);
+            Common.XZ_Daoju = sum % 3 + 1;
+            console.log(Common.XZ_Daoju);
+            //将容器remove掉，加载第二个页面 
+            this.end();
+            var that = this;
+            egret.Tween.get(this.daojuCenter).to({ rotation: 360 }, 2000).call(function () {
+                ViewManager.getInstance().order(TripEndPanel.TripEnd, that);
+            });
+        }
     };
     p.onTouchCloseTab = function (e) {
         ViewManager.getInstance().order(TripPeoplePanel.TRIP_PEOPLE, this);

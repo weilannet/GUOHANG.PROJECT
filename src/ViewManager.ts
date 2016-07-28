@@ -141,7 +141,10 @@ class ViewManager extends egret.Sprite {
                 this.addChild(this.musicPanel);
                 break;
             case TripDaojuPanel.TRIP_DAOJU:
-             
+                 
+                this.removeChildren();
+                this.tripPeoplePanel.start();
+                this.addChild(this.tripPeoplePanel);
                 this.tripDaojuPanel.start();
                 this.addChild(this.tripDaojuPanel); 
                  break;
